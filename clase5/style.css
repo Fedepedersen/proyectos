@@ -1,7 +1,10 @@
 p {
-    color:burlywood;
+    color: azure;
 }
 
 .parrafo {
     color: blue;
+} 
+#parrafo-id {
+    color: blueviolet;
 }
