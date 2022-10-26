@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box
+    
+    
+}
+
+
+.navbar {
+    height: 100px;
+    
+    
+
+
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logo {
+    height: 100%;
+    padding: 2%;
+    
+    
+    
+    display: flex;
+}
+
+.navbar.menu {
+
+
+    
+}
+
+
+#guerreroThai {
+   
+}
