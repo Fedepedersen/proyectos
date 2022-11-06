@@ -1,0 +1,36 @@
+/* @import url(); COMPLETAR FONT*/
+
+:root {
+    /*background colors*/
+    --background: #2B2118;
+    --primary: #6F1A07;
+    --secondary: #AF9164;
+    --third: #B3B6B7;
+    --fourth: #F7F3E3;
+
+    /*text colors*/
+    --text1: #F2F3AE;
+    --text2: #D58936;
+    --text3: #A44200;
+    --text4: #69140E;
+    --text5: #3C1518;
+
+    /*decoration*/
+    --decoration1: #9ABCA7;
+    --decoration1: #B7B7B7;
+    --decoration1: #CEB7B3;
+    --decoration1: #F7B2AD;
+    --decoration1: #333232;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    /* font-family: ; */
+}
+
+/*header*/
+
