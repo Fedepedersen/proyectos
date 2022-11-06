@@ -63,7 +63,7 @@ header {
 }
 
 .navbar-list a {
-    color: var(--text5);
+    color: var(--text4);
     font-size: 16px;
     font-family: 'Arvo', serif;
     font-weight: bold;
