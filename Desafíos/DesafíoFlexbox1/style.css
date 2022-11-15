@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.divsContainer {
+  display: flex;
+  
+}
+#box1 {
+  border: solid;
+  border-radius: 10px;
+  color: black;
+  background-color: blue;
+} 
+#box2 {
+  border: solid;
+  border-radius: 10px;
+  color: black;
+  background-color: red;
+} 
+#box3 {
+  border: solid;
+  border-radius: 10px;
+  color: black;
+  background-color: green;
+} 
+#box4 {
+  border: solid;
+  border-radius: 10px;
+  color: black;
+  background-color: yellow;
+} 
+#box5 {
+  border: solid;
+  border-radius: 10px;
+  color: black;
+  background-color: grey;
+} 

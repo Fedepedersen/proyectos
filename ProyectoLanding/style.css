@@ -156,9 +156,9 @@ main {
   display: flex;
   flex-direction: row;
   gap: 20px;
-   align-items: center; 
-   justify-content: center; 
- 
+  align-items: center; 
+  justify-content: center; 
+
 }
 
 .hero-card {
@@ -172,6 +172,7 @@ main {
 #card {
   width: 100%;
   min-width: 30vw;
+  border-radius: 15px;
 }
 
 .section-text {
@@ -181,4 +182,10 @@ main {
 
 .section-text p > span {
   font-weight: bold;
+}
+
+@media (max-width: 920px ) {
+  body {
+    background: black;
+  }
 }
