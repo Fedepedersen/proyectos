@@ -40,6 +40,59 @@ body {
 
 
 
+.header-container {
+  display: flex;
+  flex-direction: row;
+}
+
+
+
+
+
+
+
+
+
+.hero-container {
+display: flex;
+flex-direction: row;
+border-style: solid;
+border-color: white;
+}
+.hero-text {
+display: flex;
+flex-direction: column;
+border-style: solid;
+border-color: white;
+}
+.img-hero {
+display: flex;
+border-style: solid;
+border-color: white;
+}
+
+
+.section-recommend-container{
+  display: flex;
+  border-style: solid;
+  border-color: white;
+}
+
+.recommend-card {
+  display: flex;
+  border-style: solid;
+  border-color: white;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -50,13 +103,16 @@ body {
 
 
 .section-categories-container {
+  display: flex;
   border-style: solid;
   border-color: white;
-  display: flex;
 }
 
-
-
+.categories-card {
+  display: flex;
+  border-style: solid;
+  border-color: white;
+}
 
 
 
@@ -84,6 +140,7 @@ body {
   border-style: solid;
   border-color: white;
   display: flex;
+  flex-wrap: wrap;
 }
 
 
