@@ -45,7 +45,9 @@
     border-style: solid;
     padding: 5px;
   }
-
+#iconRayito {
+  display: none;
+}
 }
 
 
