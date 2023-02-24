@@ -18,6 +18,8 @@ header {
   background-color: gray;
   gap: 5px;
   min-width: 100px;
+  position: fixed;
+
 }
 header img {
   width: 2rem;
@@ -32,6 +34,10 @@ header img {
 /*   width: 50%; */
 /*   justify-content: center; */
   padding: 5px;
+  background-color:rgba(105, 10, 10, 0.464) ;
+
+
+  backdrop-filter:blur(5px)
 }
 
 
@@ -46,11 +52,45 @@ header img {
 
 /*   justify-content: space-around; */
 }
+
+
+
+
 .toggle-list {
   display: flex;
   gap: 25px;
+
+
+  } 
+
+
+  .toggle-list > li ::before {
+    content: "💩";
+  }
+  .toggle-list > li ::after {
+    content: "💩";
   }
 
+  
+  .toggle-list  a{
+    color: azure;
+    background-color: black;
+    padding: 2px;
+    } 
+
+
+
+
+.toggle-list  a:focus{
+  background-color: red;
+  } 
+.toggle-list  a:hover{
+  
+  color: aquamarine;
+  }
+.toggle-list a:active {
+  color: yellow;
+}
 
 
 
@@ -81,11 +121,18 @@ header img {
 
 
 body {
-background-color: black;
+background-color:rgba(155, 12, 180, 0.498) ;
+position: absolute;
+z-index: 1;
+backdrop-filter: blur;
 }
-body > img {
-/*   padding: 10%; */
-/*   margin-top: 50px; */
-  width: 100vw;
-  height: 100vh;
+
+.text-container {
+  display: flex;
+justify-content: center;
+align-items: center ;
+
+}
+h1 {
+color: aliceblue;
 }

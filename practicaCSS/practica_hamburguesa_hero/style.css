@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap');
+
+*{
+  font-family: 'Teko', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  background-color: whitesmoke
+}
+
+html {
+  font-size: larger;
+}
+header{
+display: flex;
+height: 80px;
+padding: 0px 20px;
+box-shadow: rgba(97, 50, 176, 0.893) 0px 20px 20px 50px;
+
+justify-content: space-between;
+align-items: center;
+}
+header img{
+height: 90%;
+}
+
+nav{
+
+}
+.menu-button{
+  /* sacar display, meter translate con transition */
+display: none;
+}
+#menu-toggle{
+display: none;
+}
+.navbar-list{
+display: flex;
+gap: 80px;
+}
+.navbar-link{
+
+}
+
+main{
+display: flex;
+flex-direction: column;
+}
+
+#hero{
+display: flex;
+padding: 0px 20px;
+flex-direction: column;
+gap: 50px;
+align-items: center;
+}
+#hero img {
+  width: 50%;
+  min-width: 500px;
+}
+.hero-info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+.hero-buttons{
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+}
+.hero-buttons a{
+  font-weight: 700;
+  border-style: solid;
+  border-radius: 10px;
+  padding: 10px;
+  max-width: 100px;
+  background-color:indigo;
+  color: antiquewhite;
+  
+}
+
+
+footer{
+  display: flex;
+  padding: 0px 20px;
+  justify-content: center;
+  margin-top: 50px;
+}

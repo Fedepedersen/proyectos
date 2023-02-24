@@ -1,43 +1,62 @@
-.menu-button {
-  margin: 0 auto;
+nav {
+
+  border-style: solid;
+  background-color: grey;
+  padding: 5px;
+  height: calc(100vh - 80px);
+}
+
+
+
+ .menu-button {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  width: 40px;
-  height: 36px;
-  padding: 10px;
-  border-radius: 7px;
-  background: #0a66c3;
-  cursor: pointer;  
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  background-color: steelblue;
+  animation: rotate-90-vertical-fwd 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite alternate-reverse;
+} 
+  
+.menu-button:hover{
+  background-color: blueviolet;
+  transition: all 1s ease-in-out;
+
+
 }
 
 .menu-button span {
-  width: 40px;
-  height: 4px;
-  background: white;
+  width: 80%;
+  height: 25%;
+  background-color: seashell;
 }
-
 .menu-toggle {
   display: none;
 }
+
 .toggle {
+  justify-content: center;
   display: none;
   text-align: center;
-  background: #0a66c3;
-  border-radius: 7px;
-  padding: 20px;
   width: 150px;
-  margin: 10px auto;
+  position: absolute;
+  top: 25px;
+  left: 500px;
+  background-color: aquamarine;
+  transform: translateX(1500px);
+  transition: all 0.5s ease-out;
 
 }
 
 .toggle li {
-  list-style: none;
   display: block;
-  padding: 10px 0;
-  color: #fafafa;
-}
 
+  list-style: none;
+}
 .menu-toggle:checked + .toggle {
   display: block;
+  transform: translateX(0px);
+  transition: all 0.5s ease-in;
+  background-color: red;
 }

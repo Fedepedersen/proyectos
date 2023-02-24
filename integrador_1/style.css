@@ -1,0 +1,78 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+.flex_container {
+  display: flex;
+  flex-direction: column;
+}
+
+
+header {
+  display: flex;
+  background-color: aqua;
+  justify-content: space-between;
+  padding: 10px;
+}
+header img {
+  height: 100px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: black;
+}
+  
+
+nav {
+  display: flex;
+/*   margin-top: 10px; */
+} 
+
+
+/*CHECKBOX*/
+.menu-toggle {
+  display: none;
+}
+
+/*HAMBURGUESA*/
+.menu-button {
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 40px;
+  height: 36px;
+  padding: 10px;
+  border-radius: 7px;
+  background: #0a66c3;
+  cursor: pointer;
+}
+.menu-button span {
+  width: 20px;
+  height: 4px;
+  background: white;
+
+}
+
+.toggle {
+  display: flex;
+  gap: 20px;
+}
+.toggle li a {
+  background-color: blueviolet;
+  border-style: solid;
+  color: white;
+  border-color: black;
+  border-radius: 5px;
+  padding: 5px;
+} 
+
+/*UL DEPLOYEADA*/
+.menu-toggle:checked + .toggle {
+  display: block;
+  margin-top: 10px;
+  justify-content: center;
+
+}

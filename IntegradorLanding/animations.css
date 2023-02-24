@@ -1,0 +1,39 @@
+
+
+  /*text colors*/
+  --text1: #f2f3ae;
+  --text2: #d58936;
+  --text3: #a44200;
+  --text4: #69140e;
+  --text5: #3c1518;
+
+  /*decoration*/
+  --decoration1: #9abca7;
+  --decoration2: #b7b7b7;
+  --decoration3: #ceb7b3;
+  --decoration4: #f7b2ad;
+  --decoration5: #333232;
+} */
+ */
+
+
+
+
+
+
+ /* * {
+  font-family: "Arvo", serif; 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+
+}
+/* 
+
+
+
+body {
+  background-color: var(--primary);
+

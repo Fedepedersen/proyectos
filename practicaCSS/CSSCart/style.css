@@ -1,0 +1,68 @@
+* {
+  font-family: 'Teko', sans-serif;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+header {
+display: flex;
+width: 100%;
+height: 80px;
+gap: 200px;
+}
+
+#menu-btn {
+  
+}
+
+#cart-btn {
+
+}
+
+.menu-toggle {
+/*   display: none;  */
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  gap: 200px;
+}
+
+.toggle {
+  display: none;
+  width: 100%;
+}
+
+
+#menu-toggle:checked + .toggle {
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+main {
+
+}
+
+footer {
+
+}
+
