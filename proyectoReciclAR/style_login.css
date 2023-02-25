@@ -214,12 +214,13 @@ span:active {
   flex-direction: column;
   align-items: center;
 }
-.section_login h2 {
+.section_login h1 {
  border-style: solid;
-   border-color: var(--text1);
+   border-color: var(--head);
   border-width: 20px;
    border-radius: 20px;
    padding: 20px;
+   background-color: var(--back);
 }
 
 .login_container {

@@ -64,6 +64,7 @@
 
   .contact_card_container {
   flex-direction: column;
+  width: 80%;
 }
 
 /********LOGIN*********/
@@ -109,7 +110,9 @@
     animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     animation-delay: 0.3s;
   }
-
+  .hero_info h2 {
+    margin-top: unset;
+  }
   .information_card {
     flex-direction: column-reverse;
     align-items: center;
