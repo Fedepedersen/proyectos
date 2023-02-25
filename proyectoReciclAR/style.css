@@ -103,7 +103,9 @@ h3 {
   font-size: 5vw;
 }
 
-
+p {
+  font-size: 1em;
+}
 
 
 
@@ -514,7 +516,7 @@ border-color: var(--burakkru); */
   border-radius: 20px;
   background-color: var(--back);
   text-align: center;
-  
+  min-width: 250px;
 }
 
 .contact_card img {
