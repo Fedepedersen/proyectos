@@ -80,10 +80,12 @@ h1 {
   border-radius: 20px;
   margin-top: 50px;
   padding: 40px;
-  background-color: var(--back);
-  border-style: solid;
-  border-color: var(--text1);
+  
+   border-style: solid;
+  border-color: var(--text1); 
   border-width: 20px;
+  background-color: var(--back);
+  box-shadow: 0px 0px 200px var(--text1);
 }
 
 
@@ -123,6 +125,7 @@ header {
   align-items: center;
 
   background-color: #7cc6fe;
+  z-index: 2;
   
 }
 
@@ -144,6 +147,23 @@ header {
 .menu-button {
   height: 40px;
   cursor: pointer;
+  display: none;
+}
+
+.overlay {
+  display: flex;
+  position: absolute;
+  margin-top: 80px;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  height: 100vh;
+  width: 100%;
+  background: rgba(161, 161, 161, 0.657); 
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(5px); 
+  -webkit-backdrop-filter:blur(5px);
   display: none;
 }
 
@@ -345,7 +365,7 @@ border-color: var(--burakkru); */
   border-radius: 20px;
   width: 100%;
  /*  max-width: 50%; */
-  min-width: 250px;
+  min-width: 200px;
   
   border-radius: 20px;
 
@@ -432,6 +452,7 @@ border-color: var(--burakkru); */
   min-height: 450px;
   max-width: 680px;
   min-width: 600px; */
+
 }
 
 .aboutUs_right_container_container {
@@ -512,7 +533,7 @@ border-color: var(--burakkru); */
   justify-content: space-around;
   align-items: center;
   gap: 10px;
-  font-size: 4vw;
+  font-size: 2vw;
   border-radius: 20px;
   background-color: var(--back);
   text-align: center;

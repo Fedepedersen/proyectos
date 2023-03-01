@@ -110,6 +110,10 @@
     animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     animation-delay: 0.3s;
   }
+  #menu-toggle:checked ~ .overlay {
+    display: block;
+  }
+
   .hero_info h2 {
     margin-top: unset;
   }
@@ -122,7 +126,7 @@
 
 @media (max-width: 552px) {
   .hero_info {
-    padding: unset;
+/*     padding: unset; */
     margin-bottom: 50px;
   }
   .hero_card {
@@ -132,33 +136,37 @@
     padding: unset;
   }
   .information_card-info {
-    padding: unset;
+/*     padding: unset; */
+/*     display: none; */
   }
   .information_card-img {
-    display: none;
+ /*    display: none; */
   }
   .aboutUs {
-    padding: unset;
+/*     padding: unset; */
     text-align: center;
   }
   .aboutUs_right_container{
-    padding: unset;
+/*     padding: unset; */
   }
   .aboutUs_inner_right_1 img {
     display: none;
   }
   .aboutUs_containercontainer {
     background-color: unset;
-    padding: unset;
+/*     padding: unset; */
   }
   .aboutUs_leftleft {
-    padding: unset;
+     padding: unset; 
   }
   .aboutUs img {
     display: none;
   }
   .aboutUs_container {
     margin-bottom: 50px;
+  }
+  .aboutUs_containercontainer {
+    padding: unset;
   }
 
 /********LOGIN*********/
