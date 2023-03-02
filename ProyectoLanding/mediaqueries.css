@@ -1,0 +1,111 @@
+@media (max-width : 1263px) {
+
+  #contact-container {
+    flex-direction: column;
+    gap: 50px;
+/*     min-width: 100%;
+    min-height: 100%; */
+  }
+
+
+  #contact-left-bot {
+    justify-content: space-between;
+  }
+
+
+
+
+
+
+  @media (max-width : 992px) {
+
+    #hero {
+      flex-direction: column;
+      align-items: center;
+    }
+
+
+    #cards-container-bot {
+      flex-direction: column;
+      align-items: center;
+    }
+
+
+    #contact-container {
+      flex-direction: column;
+    }
+
+
+    #contact-right {
+      min-width: 390px;
+    }
+
+
+    #contact-container {
+
+      flex-direction: column;
+    }
+
+
+
+
+
+
+
+    @media (max-width : 768px) {
+      header {
+        justify-content: center;
+        gap: 10px;
+      }
+
+
+      .navbar {
+        gap: 10px;
+      }
+
+
+      .navbar-list {
+        gap: unset;
+        display: flex;
+        justify-content: center;
+        
+      }
+      .menu-button {
+        display: flex;
+      }
+      .navbar-list {
+        display: none;
+        text-align: center;
+        background: burlywood;
+        border-radius: 7px;
+        padding: 20px;
+        width: 150px;
+        margin: 10px auto;
+      
+      }
+      .navbar-list li {
+        list-style: none;
+        display: block;
+        padding: 10px 0;
+        color: #fafafa;
+      }
+      .navbar-listt:checked + .navbar-list {
+          display: block;
+
+
+
+      }
+
+      #contact-left-mid {
+
+        flex-direction: column;
+      }
+
+      #contact-letf-mid-1 {
+
+      }
+
+
+
+
+    }

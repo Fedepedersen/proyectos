@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+/*   border-style: solid; */
+
+}
+
+
+.grid_layout {
+display: grid;
+grid-template-columns: 100%;
+grid-template-rows: repeat(6 10%);
+/* grid-gap: 10% 0%; */
+border-style: solid;
+/* grid-template-areas: 
+"header" 
+"hero" 
+"aboutUsBeneficios" 
+"cards" 
+"contactoFormIframe" 
+"footer";  */
+
+/* justify-content: start; */
+/* align-items: center; */
+
+}
+
+.header {
+background-color: aqua;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+border-style: solid;
+/* height: 10%; */
+/* grid-area: "header"; */
+min-height: 10%;
+}
+.header_logo {
+height: 100%;
+}
+
+.navbar {
+background-color: blue;
+/* min-width: 100%; */
+width: 70%; 
+/*border-style: solid;*/
+/* grid-area: auto; */
+}
+.navbar ul {
+  display: flex;
+  justify-content: space-around;
+}
+.navbar ul li a {
+  color: aliceblue;
+  border-style: solid;
+  border-radius: 5%;
+}
+
+.hero {
+background-color: brown;
+border-style: solid;
+/* grid-area: auto; */
+}
+
+.aboutUsBeneficios {
+background-color: cadetblue;
+border-style: solid;
+/* grid-area: auto; */
+}
+
+.cards {
+background-color: chartreuse;
+border-style: solid;
+}
+
+.contactFormIframe {
+background-color: darkorange;
+border-style: solid;
+}
+
+.footer {
+background-color: tomato;
+border-style: solid;
+}

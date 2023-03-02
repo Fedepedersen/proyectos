@@ -1,0 +1,79 @@
+/*Font*/
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:wght@300;500;700&display=swap');
+
+/*Global properties*/
+*{
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  font-family: 'Sofia Sans Condensed', sans-serif;
+}
+
+.header{
+display: flex;
+padding: 1% 2%;
+width: 100%;
+height: 100px;
+justify-content: space-between;
+align-items: center;
+box-shadow: rgba(9, 93, 171, 0.759) 10px 100px 200px 50px;
+}
+.header img{
+  height: 100%;
+}
+
+.nav{
+display: flex;
+height: 100%;
+align-items: center;
+
+}
+.navbar-ul{
+display: flex;
+gap: 50px;
+
+}
+.navbar-link{
+display: flex;
+border-style: solid;
+padding: 10px;
+border-radius: 10px;
+border-color: rgb(28, 231, 163);
+background-color: cadetblue;
+color: aliceblue;
+}
+
+#hero{
+display: flex;
+padding: 1% 2%;
+width: 100%;
+justify-content: space-between;
+align-items: flex-start;
+
+gap: 50px;
+
+}
+#hero img{
+border-radius: 10px;
+height: 250px;
+}
+
+.hero-presentation{
+display: flex;
+gap: 30px;
+flex-direction: column;
+width: 50%;
+}
+.hero-presentation span{
+  font-weight: 700;
+  font-size: 70px;
+}
+
+.button-container{
+display: flex;
+gap: 50px;
+
+
+}

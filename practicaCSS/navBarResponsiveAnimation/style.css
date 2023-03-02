@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+:root {
+
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  border-style: solid;
+  background-color: gray;
+  gap: 5px;
+  min-width: 100px;
+  position: fixed;
+
+}
+header img {
+  width: 2rem;
+  height: 2rem;
+}
+
+.navbar {
+  display: flex;
+  
+  border-style: solid;
+  background-color: brown;
+/*   width: 50%; */
+/*   justify-content: center; */
+  padding: 5px;
+  background-color:rgba(105, 10, 10, 0.464) ;
+
+
+  backdrop-filter:blur(5px)
+}
+
+
+
+
+
+
+
+.toggle {
+  display: flex;
+  align-items: center;
+
+/*   justify-content: space-around; */
+}
+
+
+
+
+.toggle-list {
+  display: flex;
+  gap: 25px;
+
+
+  } 
+
+
+  .toggle-list > li ::before {
+    content: "💩";
+  }
+  .toggle-list > li ::after {
+    content: "💩";
+  }
+
+  
+  .toggle-list  a{
+    color: azure;
+    background-color: black;
+    padding: 2px;
+    } 
+
+
+
+
+.toggle-list  a:focus{
+  background-color: red;
+  } 
+.toggle-list  a:hover{
+  
+  color: aquamarine;
+  }
+.toggle-list a:active {
+  color: yellow;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+.menu-button {
+  display: flex; 
+  cursor: pointer;
+}
+.menu-toggle {
+  display: flex;
+}
+
+
+
+
+body {
+background-color:rgba(155, 12, 180, 0.498) ;
+position: absolute;
+z-index: 1;
+backdrop-filter: blur;
+}
+
+.text-container {
+  display: flex;
+justify-content: center;
+align-items: center ;
+
+}
+h1 {
+color: aliceblue;
+}

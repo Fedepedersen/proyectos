@@ -1,0 +1,42 @@
+  @media (max-width : 480px) {}
+
+  /*   menu */
+  @media (max-width : 575px) {
+
+.navbar_container {
+  justify-content:space-around;
+}
+
+/*   transform: translateX(0px);
+  transition: all 0.5s ease-in; */
+}
+  }
+  @media (min-width : 576px) {
+    #menu-btn {
+      transform: translateX(2000px);
+    } 
+  }
+
+
+
+
+
+
+
+
+  @media (max-width : 768px) {
+    .menu-toggle:checked + .navbar_list {
+      display: none;
+  }
+
+  @media (max-width : 992px) {
+
+  }
+
+  @media (max-width : 1200px) {
+
+  }
+
+  @media (max-width : 1400px) {
+   
+  }

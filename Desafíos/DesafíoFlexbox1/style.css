@@ -7,35 +7,61 @@
 
 .divsContainer {
   display: flex;
+<<<<<<< HEAD
   
+=======
+  gap: 200px;
+>>>>>>> 8d2a9db4705d043cacdf35b5609c66215c469b28
 }
 #box1 {
   border: solid;
   border-radius: 10px;
   color: black;
+<<<<<<< HEAD
   background-color: blue;
 } 
+=======
+  /* background: blue; */
+  background: linear-gradient(to right, blue, white);
+}
+>>>>>>> 8d2a9db4705d043cacdf35b5609c66215c469b28
 #box2 {
   border: solid;
   border-radius: 10px;
   color: black;
   background-color: red;
+<<<<<<< HEAD
 } 
+=======
+}
+>>>>>>> 8d2a9db4705d043cacdf35b5609c66215c469b28
 #box3 {
   border: solid;
   border-radius: 10px;
   color: black;
   background-color: green;
+<<<<<<< HEAD
 } 
+=======
+}
+>>>>>>> 8d2a9db4705d043cacdf35b5609c66215c469b28
 #box4 {
   border: solid;
   border-radius: 10px;
   color: black;
   background-color: yellow;
+<<<<<<< HEAD
 } 
+=======
+}
+>>>>>>> 8d2a9db4705d043cacdf35b5609c66215c469b28
 #box5 {
   border: solid;
   border-radius: 10px;
   color: black;
   background-color: grey;
+<<<<<<< HEAD
 } 
+=======
+}
+>>>>>>> 8d2a9db4705d043cacdf35b5609c66215c469b28

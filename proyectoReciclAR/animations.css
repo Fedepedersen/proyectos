@@ -1,0 +1,82 @@
+.header-img {
+  -webkit-animation: rotate-vert-center 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+  animation: rotate-vert-center 1.0s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite;
+}
+
+.cart-img {
+  -webkit-animation: rotate-vert-center 0.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+  animation: rotate-vert-center 1.0s cubic-bezier(0.455, 0.030, 0.515, 0.955) infinite;
+}
+
+.toggle {
+  -webkit-animation: jello-horizontal 0.9s both;
+  animation: jello-horizontal 0.9s both;
+}
+
+h1 {
+  -webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in 3.0s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+          animation-delay: 0.5s;
+}
+
+h2 {
+  -webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in 3.0s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+          animation-delay: 1.0s;
+}
+
+
+
+.atention {
+  -webkit-animation: text-flicker-in-glow 4s linear both;
+	        animation: text-flicker-in-glow 4s linear both;
+}
+
+h3 {
+  -webkit-animation: roll-in-blurred-left 0.65s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+	        animation: roll-in-blurred-left 2.0s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+          animation-delay: 0.5s;
+}
+
+p {
+  -webkit-animation: roll-in-blurred-right 0.65s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+	        animation: roll-in-blurred-right 0.65s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+          animation-delay: 0.75s;
+}
+
+
+img {
+  -webkit-animation: heartbeat 1.5s ease-in-out infinite both;
+	        animation: heartbeat 1.5s ease-in-out infinite both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,67 @@
+@media (min-width: 769px) {
+  .menu-toggle {
+    display: none;
+  }
+
+  .menu-button {
+    display: none;
+  }
+}
+
+
+
+
+@media (max-width: 768px) {
+/* Se oculta el checkbox */
+  .menu-toggle {
+    display: none;
+  }
+
+  /* Se oculta la list */
+  .toggle {
+    display: none;
+  }
+
+  /* Aparece el button */
+  .menu-button {
+    display: block;
+  }
+
+  /* Aparece la list */
+  .menu-toggle:checked+.toggle {
+    display: block;
+
+  }
+
+  .navbar {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 5px;
+  }
+
+  .navbar .toggle {
+    border-style: solid;
+    padding: 5px;
+  }
+#iconRayito {
+  display: none;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 480px) {}

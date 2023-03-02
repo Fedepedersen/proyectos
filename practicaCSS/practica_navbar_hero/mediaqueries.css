@@ -1,0 +1,24 @@
+@media (max-width : 480px) {
+
+}
+@media (max-width : 576px) {
+
+}
+@media (max-width : 768px) {
+
+}
+@media (max-width : 992px) {
+#hero{
+  flex-direction: column;
+  align-items: center;
+}
+.hero-presentation{
+  align-items: center;
+}
+}
+@media (max-width : 1200px) {
+
+}
+@media (max-width : 1400px) {
+
+}

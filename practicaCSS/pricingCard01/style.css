@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+#full-container {
+  display: flex;
+  padding:10px;
+  /* justify-content: center; */
+
+
+}
+
+#pricingCards-container {
+  display: flex;
+  margin: 100px;
+  padding: 50px;
+  gap: 30px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 1px 1px black;
+  min-width: 1000px;
+border-style: solid;
+border-width: 10px;
+border-color: grey;
+}
+
+.card-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+}
+
+
+.card-1 > span {
+  background-color: palevioletred;
+  font-weight: bold;
+  padding: 10px;
+  width: 40%;
+  min-width: 30%;
+  border-radius: 10px;
+  
+}
+.card-1-top p {
+  font-weight: bold;
+  font-size: 40px;
+}
+.card-1-top span {
+  font-size: 12px;
+}
+
+.card-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.card-2 > span {
+  background-color: aqua;
+  
+  font-weight: bold;
+  padding: 10px;
+  width: 40%;
+  border-radius: 10px;
+}
+.card-2-top p {
+  font-weight: bold;
+  font-size: 40px;
+}
+.card-2-top span {
+  font-size: 12px;
+}
+
+.card-3 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.card-3 > span {
+  background-color: black;
+  color: white;
+
+  font-weight: bold;
+  padding: 10px;
+  width: 40%;
+  border-radius: 10px;
+}
+.card-3-top p {
+  font-weight: bold;
+  font-size: 40px;
+}
+.card-3-top span {
+  font-size: 12px;
+}
+
+/* @media (min-width: 1024px) {
+  #pricingCards-container {
+    width: 100%;
+  }
+} */
+
+@media (max-width: 1023px) {
+  #pricingCards-container {
+    flex-direction: column;
+    justify-content: center; 
+    min-width: 324px;
+  }
+
+  @media (max-width: 767px) {
+    #pricingCards-container {
+/*       flex-direction: column;
+      justify-content: center; 
+      min-width: 324px; */
+    }
+
+
+}

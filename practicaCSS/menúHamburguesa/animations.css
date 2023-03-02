@@ -1,0 +1,13 @@
+/* .scale-up-bottom {
+	animation: scale-up-bottom 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+ */
+
+ @keyframes rotate-90-vertical-fwd {
+  0% {
+    transform: rotateY(0);
+  }
+  100% {
+    transform: rotateY(90deg);
+  }
+}
