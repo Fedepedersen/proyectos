@@ -1,0 +1,34 @@
+* {
+  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+
+}
+
+.container-main {
+  display: flex;
+  position: fixed;
+  justify-content: center;
+  align-items: flex-start;
+
+}
+
+#imagen-aire {
+  width: 100vw;
+  height: 100vh;
+  
+  
+}
+
+.container-text {
+  background-color: grey;
+  display: flex;
+  position: absolute;
+  justify-items: center;
+  align-items: center;
+  
+}

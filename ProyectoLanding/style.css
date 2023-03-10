@@ -22,7 +22,10 @@
 }
 
 * {
+<<<<<<< HEAD
+=======
 
+>>>>>>> 8d2a9db4705d043cacdf35b5609c66215c469b28
   font-family: "Arvo", serif;
   margin: 0;
   padding: 0;
@@ -33,6 +36,18 @@
 }
 
 body {
+<<<<<<< HEAD
+  background: #FC354C;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #0ABFBC, #FC354C);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #0ABFBC, #FC354C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+header {
+  background: var(--text1);
+  width: 100%;
+=======
 max-width: 100%;
 min-width: 100%
 width: 100%;
@@ -76,10 +91,23 @@ header {
   background: var(--text1);
   width: 100%;
 /*   height: 100%; */
+>>>>>>> 8d2a9db4705d043cacdf35b5609c66215c469b28
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 65px;
+<<<<<<< HEAD
+  padding: 0px 30px;
+  position: fixed;
+  top: 0;
+}
+
+.logo {
+  height: 80%;
+  margin-left: 1rem;
+  background-color:var(--text1); 
+}
+=======
 /*   padding: 0px 30px; */
   position: fixed;
   top: 0;
@@ -96,6 +124,7 @@ margin-left: 1rem;
   background-color: var(--text1);
 }
 
+>>>>>>> 8d2a9db4705d043cacdf35b5609c66215c469b28
 .navbar,
 .navbar-list {
   display: flex;
@@ -112,7 +141,10 @@ margin-left: 1rem;
 .navbar-list {
   gap: 30px;
   background: var(--text1);
+<<<<<<< HEAD
+=======
 
+>>>>>>> 8d2a9db4705d043cacdf35b5609c66215c469b28
 }
 
 .navbar-list a {
@@ -121,6 +153,8 @@ margin-left: 1rem;
   font-family: "Arvo", serif;
   font-weight: bold;
   background: var(--text1);
+<<<<<<< HEAD
+=======
   border-style: solid;
   padding: 5px;
   border-radius: 5px;
@@ -149,6 +183,7 @@ margin-left: 1rem;
 /*  */
 #navbar-list {
   display: none;
+>>>>>>> 8d2a9db4705d043cacdf35b5609c66215c469b28
 }
 
 .cart-icon {
@@ -161,11 +196,33 @@ margin-left: 1rem;
   background: var(--text1);
 }
 
+<<<<<<< HEAD
+main {
+ /*  background-color: grey; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
+  padding: 20px 20px;
+}
+=======
+
+>>>>>>> 8d2a9db4705d043cacdf35b5609c66215c469b28
 
 #hero {
   display: flex;
   flex-direction: row;
+<<<<<<< HEAD
+  margin: 100px 100px 100px 100px;
+
+  align-items: flex-start;
+  justify-content: center;
+  gap: 150px;
+  height: 100%;
+
+  text-align: center;
+=======
   margin-top:  65px ;
   padding: 100px;
 
@@ -175,6 +232,7 @@ margin-left: 1rem;
   height: 100%;
   text-align: center;
 /*   border-style: solid; */
+>>>>>>> 8d2a9db4705d043cacdf35b5609c66215c469b28
 }
 
 .hero-info {
@@ -183,27 +241,44 @@ margin-left: 1rem;
   gap: 60px;
   width: 50%;
   min-width: 300px;
+<<<<<<< HEAD
+ 
+}
+.hero-info h1 {
+  font-size: 48px;
+ 
+=======
 
 }
 
 .hero-info h1 {
   font-size: 48px;
 
+>>>>>>> 8d2a9db4705d043cacdf35b5609c66215c469b28
 
   font-weight: 1500;
   color: black;
 }
+<<<<<<< HEAD
+=======
 
+>>>>>>> 8d2a9db4705d043cacdf35b5609c66215c469b28
 .hero-info p {
   font-size: 16px;
 
   color: black;
 
 }
+<<<<<<< HEAD
+.hero-info p > span {
+  font-weight: 800;
+  
+=======
 
 .hero-info p>span {
   font-weight: 800;
 
+>>>>>>> 8d2a9db4705d043cacdf35b5609c66215c469b28
 }
 
 .hero-info a {
@@ -221,6 +296,12 @@ margin-left: 1rem;
   display: flex;
   flex-direction: row;
   gap: 20px;
+<<<<<<< HEAD
+  align-items: center; 
+  justify-content: center; 
+
+}
+=======
   align-items: center;
   justify-content: center;
 
@@ -228,22 +309,45 @@ margin-left: 1rem;
 .hero-buttons > a {
   border-style: solid;
 }
+>>>>>>> 8d2a9db4705d043cacdf35b5609c66215c469b28
 
 .hero-card {
   display: flex;
   width: 50%;
+<<<<<<< HEAD
+  min-width: 450px;
+=======
   min-width: 300px;
+>>>>>>> 8d2a9db4705d043cacdf35b5609c66215c469b28
   background: burlywood;
   padding: 20px;
   border-radius: 15px;
 }
+<<<<<<< HEAD
+=======
 
+>>>>>>> 8d2a9db4705d043cacdf35b5609c66215c469b28
 #card {
   width: 100%;
   min-width: 30vw;
   border-radius: 15px;
 }
 
+<<<<<<< HEAD
+.section-text {
+  display: flex;
+  
+}
+
+.section-text p > span {
+  font-weight: bold;
+}
+
+@media (max-width: 920px ) {
+  body {
+    background: black;
+  }
+=======
 
 
 #text{
@@ -536,4 +640,5 @@ width: 50%;
   #contact-container {}
 
   #footer-container {}
+>>>>>>> 8d2a9db4705d043cacdf35b5609c66215c469b28
 }
