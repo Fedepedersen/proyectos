@@ -64,6 +64,13 @@ html {
 body {
   background-color: #f4faff;
   /*   display: block; */
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  min-width: 480px;
 }
 
 main {
@@ -256,6 +263,7 @@ main {
 
   background-color: var(--head);
 
+
   
 }
 
@@ -332,6 +340,8 @@ border-color: var(--burakkru); */
   gap: 100px;
   padding:40px;
   background-color: var(--head);
+  justify-content: center;
+ 
 }
 
 .information_card {
@@ -365,7 +375,7 @@ border-color: var(--burakkru); */
   border-radius: 20px;
   width: 100%;
  /*  max-width: 50%; */
-  min-width: 200px;
+  min-width: 90px;
   
   border-radius: 20px;
 
@@ -450,8 +460,8 @@ border-color: var(--burakkru); */
   border-radius: 20px;
 /*   max-height: 450px;
   min-height: 450px;
-  max-width: 680px;
-  min-width: 600px; */
+  max-width: 680px;*/
+  min-width: 90px; 
 
 }
 

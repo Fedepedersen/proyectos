@@ -134,6 +134,7 @@
   }
   .information_card {
     padding: unset;
+    gap: unset;
   }
   .information_card-info {
 /*     padding: unset; */
@@ -149,24 +150,40 @@
   .aboutUs_right_container{
 /*     padding: unset; */
   }
+  .aboutUs_inner_right_1 {
+    gap: unset;
+  }
   .aboutUs_inner_right_1 img {
-    display: none;
+/*     display: none; */
+
   }
   .aboutUs_containercontainer {
     background-color: unset;
 /*     padding: unset; */
   }
+  .aboutUs-text {
+    display: none;
+  }
   .aboutUs_leftleft {
      padding: unset; 
   }
+  .aboutUs_left {
+    padding: unset; 
+ }
   .aboutUs img {
-    display: none;
+    display: unset;
   }
   .aboutUs_container {
     margin-bottom: 50px;
   }
   .aboutUs_containercontainer {
     padding: unset;
+  }
+  .information-text {
+    display: none;
+  }
+  .normal-list {
+    display: none;
   }
 
 /********LOGIN*********/
@@ -181,6 +198,29 @@
 
 @media (max-width: 480px) {
   #navbar-link1 {
+    display: none;
+  }
+  .login_mid{
+    padding: 5px;
+  }
+  .register_container ul > li {
+    padding: unset;
+  }
+}
+
+@media (max-width: 320px) {
+  .hero_info {
+    
+  }
+  .hero_info-buttons {
+    flex-direction: column;
+    gap: 50px;
+    min-width: 100px;
+  }
+  .hero_info-title {
+    display: none;
+  }
+  .hero_info-text {
     display: none;
   }
 }
