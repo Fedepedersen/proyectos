@@ -1,0 +1,41 @@
+.cuadro {
+    border: 2px solid #000;
+    height: 5vh;
+    margin-bottom: 2vh;
+    width: 90%;
+}
+
+.cuadro1 {
+    background: #853471;
+}
+
+.cuadro2 {
+    background: #a3c838;
+}
+
+.cuadro3 {
+    background: #ee5a24;
+}
+
+@media all and (min-width: 768px) {
+    .cuadro {
+        float: left;
+        margin-right: 10%;
+        width: 20%;
+    }
+    .cuadro1 {
+        background: #ffc312;
+    }
+}
+
+@media all and (min-width: 1200px) {
+    .cuadro {
+        float: left;
+        margin-right: 2%;
+        width: 30%;
+    }
+    .cuadro1 {
+        background: #853471;
+    }
+    
+}

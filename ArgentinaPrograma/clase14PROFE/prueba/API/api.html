@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ejemplo de Ajax con POST</title>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.3.1/jspdf.umd.min.js"></script>
+	<script>
+		$(document).ready(function() {
+			$("#btnEnviar").click(function() {
+				var nombre = $("#nombre").val();
+				var trabajo = $("#trabajo").val();
+				$.ajax({
+					url: "https://reqres.in/api/users",
+					type: "POST",
+					data: {
+						name: nombre,
+						job: trabajo
+					},
+					success: function(result) {
+						console.log(result);
+						alert('El objeto: ' + JSON.stringify(result) + ' a sido creado correctamente')
+						var pdf = new jsPDF();
+						pdf.text(20, 20, "Nombre: " + result.name);
+            			pdf.text(20, 30, "Trabajo: " + result.job);
+
+						pdf.save("usuario-y-trabajo.pdf");
+					},
+					error: function(xhr, status, error) {
+						alert("Ha ocurrido un error: " + error);
+					}
+				});
+			});
+		});
+	</script>
+</head>
+<body>
+	<h1>Ejemplo de Ajax con POST</h1>
+	<label for="nombre">Nombre:</label>
+	<input type="text" id="nombre" name="nombre"><br><br>
+
+	<label for="trabajo">Trabajo:</label>
+	<input type="text" id="trabajo" name="trabajo"><br><br>
+
+	<button id="btnEnviar">Enviar</button>
+
+
+
+	<h2>Respuesta en consola:</h2>
+	<div id="respuestaConsola"></div>
+
+	<h2>Respuesta en HTML:</h2>
+	<div id="respuestaHTML"></div>
+</body>
+</html>
